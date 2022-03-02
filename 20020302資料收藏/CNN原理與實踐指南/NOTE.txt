@@ -1,0 +1,8 @@
+CNN原理與實踐指南(入門教學) [電子書PDF]
+
+資料來源: https://mp.weixin.qq.com/s/rxju7XKZPMShRN2ZDTgktA
+
+1. 卷積
+2. 池化（pooling）
+3. Normalization
+4. 卷積神經網路理解

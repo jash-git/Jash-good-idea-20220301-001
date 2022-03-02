@@ -1,0 +1,3 @@
+基於OpenCV的手掌檢測和手指計數 (原始碼)
+
+資料來源: https://mp.weixin.qq.com/s?__biz=MzU0NjgzMDIxMQ==&mid=2247589263&idx=1&sn=e458c73a8eb35ec2939f1a703523be00&chksm=fb547f63cc23f675ef11ac5cd39170036b3f62683ba816fb2be4e41c6fc15d35806f1e5ba5dd&scene=178&cur_album_id=1370255138719498240#rd
