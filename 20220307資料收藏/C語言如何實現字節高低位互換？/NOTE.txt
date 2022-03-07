@@ -1,0 +1,30 @@
+C語言如何實現位元組高低位互換
+
+資料來源: https://mp.weixin.qq.com/s/vTTyPdvZa0ngeve5s151dQ
+
+unsigned char shift_fun1(unsigned char data)  
+{  
+    unsigned char i;  
+    unsigned char tmp=0x00;  
+ 
+    for(i=0;i<8;i++)  
+    {  
+         tmp=((data>>i)&0x01)|tmp;  
+         if(i<7)  
+            tmp=tmp<<1;  
+    }  
+    printf("  after shift fun1 data=%x \n",tmp);  
+
+    return tmp;  
+}
+
+
+unsigned char shift_fun2(unsigned char data)  
+{  
+    data=(data<<4)|(data>>4);  
+    data=((data<<2)&0xcc)|((data>>2)&0x33);  
+    data=((data<<1)&0xaa)|((data>>1)&0x55);  
+    printf("  after shift fun2 data=%x \n",data);  
+
+    return data;  
+} 

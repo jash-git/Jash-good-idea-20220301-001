@@ -1,0 +1,61 @@
+Python+OpenCV —— 全局二值化，局部二值化與自訂義二值化
+
+資料來源: https://blog.csdn.net/weixin_43860783/article/details/110471280
+
+import cv2 as cv
+import numpy as np
+from matplotlib import pyplot as plt
+
+
+def global_binary(image):
+    gray = cv.cvtColor(image, cv.COLOR_BGR2GRAY)
+    plt.hist(gray.ravel(), 256, [0, 256])
+    plt.show()
+    """
+        src:输入图像
+        thresh：设置阈值，当进行二值化时，大于该值的为1，小于归0
+        maxval：maximum value to use with the #THRESH_BINARY and #THRESH_BINARY_INV thresholding types.最大像素值
+        type：所采用的方法
+        
+        注意：当设置了自动搜索阈值的方法时（如cv.THRESH_OTSU或者cv.THRESH_TRIANGLE）,手动设置的阈值将不生效
+    """
+    thr, binary = cv.threshold(gray, 0, 255, cv.THRESH_BINARY | cv.THRESH_OTSU)
+    print("threshold:{}".format(thr))
+    cv.imshow("binary", binary)
+
+
+def local_binary(image):
+    gray = cv.cvtColor(image, cv.COLOR_BGR2GRAY)
+    """
+        src:输入图像
+        maxValue：同上
+        adaptiveMethod：自适应方法，常用的有ADAPTIVE_THRESH_MEAN_C以及ADAPTIVE_THRESH_GAUSSIAN_C,分别为均值发育高斯均值法
+                        The #BORDER_REPLICATE | #BORDER_ISOLATED is used to process boundaries.
+        thresholdType: must be either #THRESH_BINARY or #THRESH_BINARY_INV，只能是二值化或INV（反二值化）
+        blockSize：局部二值的参考块大小
+        C : Constant subtracted from the mean or weighted mean. Normally, it is positive but may be zero or negative as well.
+            对每个块，结算得到的阈值减去常数C再来进行二值化，用于减小特殊值带来的误差
+    """
+    dst = cv.adaptiveThreshold(gray, 255, cv.ADAPTIVE_THRESH_GAUSSIAN_C, cv.THRESH_BINARY, 25, 10)
+    cv.imshow("local_binary", dst)
+
+
+def custom_binary(image):
+    gray = cv.cvtColor(image, cv.COLOR_BGR2GRAY)
+    h, w = gray.shape[:2]
+    print("h:{}, w:{}".format(h, w))
+    mean = np.sum(gray.ravel()) / (h*w)
+    thr, binary = cv.threshold(gray, mean, 255, cv.THRESH_BINARY)
+    print("threshold:{}".format(thr))
+    cv.imshow("custom_binary", binary)
+
+
+src = cv.imread("data/lena.jpg")
+cell = cv.imread("data/cell.jpg")
+# cv.imshow("original", cell)
+# global_binary(cell)
+# local_binary(src)
+custom_binary(src)
+
+cv.waitKey(0)
+cv.destroyAllWindows()

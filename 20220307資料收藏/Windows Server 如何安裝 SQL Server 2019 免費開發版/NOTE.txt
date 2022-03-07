@@ -1,0 +1,13 @@
+Windows Server 如何安裝 SQL Server 2019 免費開發版
+
+資料來源: https://ithelp.ithome.com.tw/articles/10282651
+https://www.microsoft.com/zh-tw/sql-server/sql-server-downloads
+https://docs.microsoft.com/zh-tw/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver15
+
+01. SQL Server 2019 Developer 適合個⼈開發使⽤
+02. 開始安裝選擇⾃訂可以設定更多選項
+03. 安裝功能要勾選資料庫引擎服務
+04. 啟⽤混合模式登入會更⽅便
+05. 要對外服務需開啟 TCP/IP 連接
+06. 開通對外防火牆 Port
+07. 使⽤ SQL Server Management Studio 管理介⾯

@@ -1,0 +1,43 @@
+16個python+OpenCV函數開始你的計算機視覺之旅 [原始碼]
+
+資料來源: https://mp.weixin.qq.com/s/o02Nx0IPxCnA4n289SPSQw
+https://www.analyticsvidhya.com/blog/2019/03/opencv-functions-computer-vision-python/
+
+
+什麼是計算機視覺？
+將OpenCV用於計算機視覺任務？
+讀取，寫入和顯示圖像
+色彩改變空間
+調整圖像大小
+影像旋轉
+圖片翻譯
+簡單的影像值
+醫療服務價值
+圖像分割（分水嶺算法）
+按位
+標記檢測
+圖像過濾
+影像影像
+尺度不變特徵變換（SIFT）
+加速的強大功能（SURF）
+特徵匹配
+人臉檢測
+-----
+What is Computer Vision?
+Why use OpenCV for Computer Vision Tasks?
+Reading, Writing and Displaying Images
+Changing Color Spaces
+Resizing Images
+Image Rotation
+Image Translation
+Simple Image Thresholding
+Adaptive Thresholding
+Image Segmentation (Watershed Algorithm)
+Bitwise Operations
+Edge Detection
+Image Filtering
+Image Contours
+Scale Invariant Feature Transform (SIFT)
+Speeded-Up Robust Features (SURF)
+Feature Matching
+Face Detection
