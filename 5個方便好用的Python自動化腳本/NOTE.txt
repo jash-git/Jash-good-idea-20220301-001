@@ -1,0 +1,17 @@
+5個方便好用的Python自動化腳本
+
+資料來源: https://mp.weixin.qq.com/s/Y7aZeZJ_f33CRxkeHN_ZiQ
+https://medium.com/pythoneers/10-handy-automation-scripts-you-should-try-using-python-fc9450116938
+
+
+01.自動化閱讀網頁新聞(文字 轉 聲音/語音)
+
+02.自動生成素描草圖
+
+03.自動發送多封郵件
+
+04.自動化數據探索
+
+05.自動桌面提示
+
+

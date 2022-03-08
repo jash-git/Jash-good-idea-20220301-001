@@ -1,0 +1,18 @@
+圖解：卷積(捲積)神經網路數學原理解析
+
+資料來源: https://mp.weixin.qq.com/s/6wybT8O9TDd4YCmt_kr1cQ
+https://www.maxpixel.net/Idstein-Historic-Center-Truss-Facade-Germany-3748512
+https://www.yanxishe.com/TextTranslation/1647
+https://towardsdatascience.com/gentle-dive-into-math-behind-convolutional-neural-networks-79a07dd44cf9
+
+01.神經網絡結構
+02.數字圖像的數據結構 
+03.卷積(捲積)數學 ~ 運算範例動畫
+04.有效卷積和相同卷積
+05.步幅卷積
+06.過渡到三維
+07.卷積層
+08.連接剪枝和參數共享
+09.卷積層反向傳播
+10.池化層
+11.池化層反向傳播
