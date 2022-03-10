@@ -1,0 +1,55 @@
+Windows OS上安裝運行Apache Kafka教程
+https://read01.com/JKBL.html
+
+如何在 Windows OS 安裝 Apache Kafka
+https://blog.yowko.com/kafka-on-windows/
+
+修正Kafka建立主題錯誤教學 (kafka-topics.bat Exception in thread "main" joptsimple.UnrecognizedOptionException: zookeeper is not a recognized option)
+https://stackoverflow.com/questions/69297020/exception-in-thread-main-joptsimple-unrecognizedoptionexception-zookeeper-is
+
+修正Kafka創建Consumer錯誤教學 (kafka-console-consumer.bat  zookeeper is not a recognized option)
+https://stackoverflow.com/questions/53428903/zookeeper-is-not-a-recognized-option-when-executing-kafka-console-consumer-sh
+
+放大 kafka message size
+https://blog.yowko.com/kafka-max-message-size/
+
+Kafka教學
+https://www.1ju.org/kafka/index
+
+Kafka教學
+https://tw511.com/9/102/3082.html
+
+
+Zookeeper基础教程
+https://www.cnblogs.com/shanfeng1000/p/12675498.html
+https://www.cnblogs.com/shanfeng1000/p/12686507.html
+https://www.cnblogs.com/shanfeng1000/p/12700144.html
+https://www.cnblogs.com/shanfeng1000/p/12700296.html
+https://www.cnblogs.com/shanfeng1000/p/12700301.html
+https://www.cnblogs.com/shanfeng1000/p/12718304.html
+
+
+C# Kafka
+https://www.cnblogs.com/shanfeng1000/p/13035691.html
+https://www.cnblogs.com/shanfeng1000/p/13035700.html
+https://www.cnblogs.com/shanfeng1000/p/13035707.html
+https://www.cnblogs.com/shanfeng1000/p/13035726.html
+
+使用 .NET client 連線至 Apache Kafka 收發訊息
+https://blog.yowko.com/kafka-client-produce-consume/
+文章目錄
+	使用 .NET client 連線至 Apache Kafka 收發訊息
+	安裝 .Net Client
+	接收訊息
+	發送訊息
+	其他選項
+	心得
+	參考資訊
+
+
+
+必備軟體
+Java server jre ~ http://www.oracle.com/technetwork/java/javase/downloads/server-jre8-downloads-2133154.html
+Zookeeper ~ http://zookeeper.apache.org/releases.html
+Kafka ~ http://kafka.apache.org/downloads.html
+
