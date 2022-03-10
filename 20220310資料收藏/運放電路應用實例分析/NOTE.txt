@@ -1,0 +1,9 @@
+運算放大器（英語：Operational Amplifier，簡稱OP、OPA、op-amp、運放）電路應用實例分析
+
+資料來源: https://mp.weixin.qq.com/s/JqbZtiq0lmsU7pN-uovlCw
+https://zh.wikipedia.org/wiki/%E8%BF%90%E7%AE%97%E6%94%BE%E5%A4%A7%E5%99%A8
+https://www.mouser.tw/c/semiconductors/integrated-circuits-ics/amplifier-ics/operational-amplifiers-op-amps/
+
+01.同相放大器電路
+02.反相放大器電路
+03.積分器電路

@@ -1,0 +1,14 @@
+10個最好用的Python開發工具（IDE）
+
+資料來源: https://mp.weixin.qq.com/s/PATinGTsdXXA5RhCXtfsMg
+
+PyCharm
+Atom
+IDLE
+Thonny
+Visual Studio Code
+Sublime Text
+Spyder
+Wing
+Eric Python
+Rodeo
