@@ -1,0 +1,73 @@
+PHPMailer 用 PHP 發信 & Gmail 申請應用程式密碼
+
+資料來源: https://shazi.info/phpmailer-%E7%94%A8-php-%E7%99%BC%E4%BF%A1-gmail-%E7%94%B3%E8%AB%8B%E6%87%89%E7%94%A8%E7%A8%8B%E5%BC%8F%E5%AF%86%E7%A2%BC/
+
+在此篇簡單紀錄如何使用 PHPMailer
+
+Step.1 複製 PHPMailer 專案
+
+$ git clone https://github.com/PHPMailer/PHPMailer
+ 
+
+Step.2 建立單封郵件測試
+
+$ cd PHPMailer
+$ sendmail.php
+
+<?php
+require 'PHPMailerAutoload.php';
+
+$mail = new PHPMailer;
+
+// Enable verbose debug output
+//$mail->SMTPDebug = 3;                               
+
+// Set mailer to use SMTP
+$mail->isSMTP();
+
+// smtp 伺服器, 支援多台smtp server備援
+$mail->Host = 'smtp1.gmail.com';
+
+// Enable SMTP authentication
+$mail->SMTPAuth = true;
+
+// SMTP username
+$mail->Username = 'user@example.com';
+
+// SMTP password , If you must use the gmail application password
+$mail->Password = 'secret';
+
+// Enable TLS encryption, `ssl` also accepted
+$mail->SMTPSecure = 'tls';
+
+// TCP port to connect to
+$mail->Port = 587;
+
+$mail->setFrom('from@example.com', 'Mailer');
+
+// Add a recipient , name is optional
+$mail->addAddress('joe@example.net', 'Joe User');
+$mail->addAddress('ellen@example.com');
+
+// Add a recipient , 
+$mail->addReplyTo('info@example.com', 'Information');
+$mail->addCC('cc@example.com');
+$mail->addBCC('bcc@example.com');
+
+// Add attachments , optional name
+$mail->addAttachment('/var/tmp/file.tar.gz');
+$mail->addAttachment('/tmp/image.jpg', 'new.jpg');
+
+// Set email format to HTML
+$mail->isHTML(true);
+
+$mail->Subject = 'Here is the subject';
+$mail->Body    = 'This is the HTML message body <b>in bold!</b>';
+$mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
+
+if(!$mail->send()) {
+    echo 'Message could not be sent.';
+    echo 'Mailer Error: ' . $mail->ErrorInfo;
+} else {
+    echo 'Message has been sent';
+}

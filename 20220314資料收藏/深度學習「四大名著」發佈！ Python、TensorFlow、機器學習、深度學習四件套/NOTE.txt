@@ -1,0 +1,11 @@
+深度學習「四大名著」發佈！ Python、TensorFlow、機器學習、深度學習四件套（電子書 PDF） ~ 已下載
+
+資料來源: https://mp.weixin.qq.com/s/-71zO44MfgjRZUgDr2anKA
+
+白話深度學習與TensorFlow ~ https://github.com/azheng333/DeepLearningAndTensorFlow
+
+深度學習入門之Pytorch ~ https://github.com/L1aoXingyu/code-of-learn-deep-learning-with-pytorch
+
+動手學深度學習 ~ https://github.com/d2l-ai/d2l-zh
+
+深度學習 ~ 

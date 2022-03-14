@@ -1,0 +1,21 @@
+RWD網頁轉PHP 切版/套版簡易範例
+
+資料來源: https://github.com/jash-git/RWD-WEB-Template-Ex
+
+單純將RWD HTML樣板的網站 轉成 PHP的頁面 入門實驗範例
+
+01.依照index.html內容把它直接拆成
+	head.php
+	index_body.php
+	foot.php
+	PS.單純將HTML內容拷貝另存並賦予PHP附檔名
+	
+02.比對index.html和about.html將about.html中的核心抽出另存成
+	about_body.php
+	
+03.修改head.php中的首頁和公司簡介的超連結
+
+04.撰寫index.php
+
+05.最後整合測試
+

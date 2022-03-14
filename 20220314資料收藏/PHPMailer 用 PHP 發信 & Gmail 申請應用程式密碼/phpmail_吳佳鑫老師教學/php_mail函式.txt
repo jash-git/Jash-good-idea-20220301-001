@@ -1,0 +1,40 @@
+S1.修改 \xampp\php\php.ini
+
+extension=php_openssl.dll
+
+SMTP=smtp.gmail.com 
+smtp_port=587
+sendmail_from = 20210210.cc@gmail.com
+sendmail_path ="\"C:\xampp\sendmail\sendmail.exe\" -t"
+
+S2.修改 \xampp\sendmail
+smtp_server=smtp.gmail.com
+smtp_port=587
+smtp_ssl=auto
+
+default_domain=gmail.com
+auth_username=20210210.cc@gmail.com
+auth_password= skeabimbrykzyoyk//google 兩步驗證要開 使用 app應用程式 產生的密碼
+
+force_sender=20210210.cc@gmail.com
+
+S3.google 兩步驗證
+https://myaccount.google.com/?utm_source=OGB&tab=kk&utm_medium=act
+
+S4.程式
+<?php
+     $from_name = '20210210.cc';
+     $from_email = '20210210.cc@gmail.com';
+     //$headers = 'From:'.$from_name.'<$from_email>';
+     $body = 'This is a test mail';
+     $subject = 'Test email from php mail()';
+     $to = '20210522.cc@gmail.com';
+     //if (mail($to, $subject, $body, $headers)) {
+     if (mail($to, $subject, $body)) {    
+         echo "success!";
+     } else {
+         echo "fail…";
+     }
+ ?>
+
+https://www.youtube.com/watch?v=L5uCc8Hab-I

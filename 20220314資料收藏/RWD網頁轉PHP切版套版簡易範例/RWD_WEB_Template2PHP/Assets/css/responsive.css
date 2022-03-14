@@ -1,0 +1,137 @@
+﻿@media screen and (max-width:1030px){
+.head,.nav_m,.i_ma,.i_mb,.i_mc .i_mcm,.i_md,.i_me,.i_mf,.foot,.scd{width:740px;}
+.i_mg{ width:739px;}
+.head{ height:85px;}
+.head .logo_a img,.head .logo_a{ width:293px; height:49px;}
+.head .logo_b img,.head .logo_b{ width:234px; height:36px;}
+.head dl{ width:205px;}
+.head dl dt,.head dl dt img{ width:40px; height:40px;}
+.head dl dd p{ height:20px; line-height:20px; font-size:15px;}
+.nav a{ padding:0 4px;}
+.i_mb .i_mbm .i_mbml{ margin-top:20px; height:295px; overflow:hidden;}
+.i_name h6,.i_name_a h6 em,.i_name h6 em{ font-size:26px;}
+.i_name .title span{ font-size:20px;}
+.i_mcm .sp .sp_m, .i_mcm .flexslider .slides li .i_news,.i_mcm .sp{ width:231px; height:352px;}
+.i_news .tu,.i_news .title,.i_mcm .sp .des p, .i_mcm .i_news .des p,.i_mcm .sp .des, .i_mcm .i_news .des{ width:211px;}
+.i_mcm .sp .des, .i_mcm .i_news .des{ padding-top:5px; margin-top:0px;}
+.i_mcm .sp .des{ margin-top:15px;}
+.i_news .tu img{ width:211px; height:135px;}
+.i_mcm .sp embed{ width:211px; height:183px;}
+.i_mcm .flexslider{ width:495px;}
+.i_mcm .flexslider .slides li .i_news{ margin-right:21px;}
+.i_mdm .tabBox .tabNav li{ margin-bottom:10px;}
+.i_mdm .tabBox .tabNav{ text-align:center;}
+.i_mdm .business dl dd{ width:508px; height:135px;}
+.i_mdm .business ul li,.i_me dl{ width:360px;}
+.i_mdm .business ul li p{ width:250px;}
+.i_me dl dd{ width:200px; margin-right:5px;}
+.i_mfm .tab .t_a{ width:160px;}
+.i_mg a{ width:245px;}
+.foot p{ width:655px;}
+.scd .scd_l{ width:260px;}
+.scd .scd_l .name .en{ width:240px; margin-left:10px;}
+.scd .scd_l .name span{ margin-left:13px;}
+.scd .scd_l .s_nav li.now a, .scd .scd_l .s_nav li:hover a,.scd .scd_l .s_nav li a, .scd .scd_l .s_nav li a{ background-position: 10px center;}
+.scd .scd_l .s_nav li a em{ margin:0 10px 0 20px;}
+.scd .scd_r{ width:465px;}
+.scd_r .scd_h{ font-size:18px;}
+.news dl dd, .business dl dd{ width:300px;}
+.comment dl dt{ padding:4px;}
+.comment dl dd{ width:280px; margin-top:-5px;}
+.open li .tu{ border:4px solid #ddd;}
+.open li{ width:226px; margin-right:13px;}
+.open li .tu,.open li .tu img{ width:218px; height:154px;}
+.analy dl dd{ width:295px;}
+.down table td{ padding:3px 5px; font-size:12px;}
+}
+
+@media screen and (max-width:770px) {
+.head,.nav_m,.i_ma,.i_mb,.i_mc .i_mcm,.i_md,.i_me,.i_mf,.foot,.scd{width:480px;}
+.i_mg{ width:479px;}
+.i_name h6,.i_name p{ max-width:480px; margin:0px auto;}
+.i_name p{ font-weight:normal;}
+.head .logo_a img, .head .logo_a{ width:339px; height:57px;}
+.head { height:auto; padding-bottom:15px;}
+.head dl,.head .logo_b{ margin-top:15px;}
+.head dl dd b{ font-size:18px;}
+.nav_m .n_icon{ display:block;}
+.nav_m .nav{ display:none; background:#CC8D00; width:100%; position:absolute; left:0px; top:40px; z-index:999999;}
+.nav_m .nav a{ display:block; width:90%; padding:0 5%; text-align:left;}
+.i_mb .i_mbm .i_mbml{ margin-top:0px; height:213px;}
+.i_mcm .flexslider{ width:240px; }
+.i_mcm .flexslider .slides > li{height:354px; overflow:hidden;}
+.i_mdm .business dl dd{ width:250px;}
+.i_mdm .business ul li,.i_me dl{ width:100%;}
+.i_mdm .business ul li p{ width:65%;}
+.i_me dl dd{ width:320px;}
+.i_mcm .flex-control-nav{ left:50%;}
+.i_me .flexslider .slides > li{ height:275px; overflow:hidden;}
+.i_mfm table th,.i_mfm table th table td{ line-height:150%; font-weight:normal; font-size:12px;}
+.i_mfm table td{ padding:5px;}
+.i_mfm table{ font-size:12px;}
+.i_mg a{ width:238px;}
+.f_bg{ background:none; height:auto;
+background-image: -moz-linear-gradient(top, #EEBB00, #CD8B01); /* Firefox */
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #EEBB00), color-stop(1, #CD8B01)); /* Saf4+, Chrome */
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#EEBB00', endColorstr='#CD8B01', GradientType='0'); /* IE*/
+}
+.foot{ padding-bottom:10px;}
+.foot p{ width:390px; font-size:12px;}
+.foot p a{ font-size:12px;}
+.foot .f_code{ top:35px;}
+.i_me dl{ margin-right:0;}
+.scd .scd_l{ width:100%; top:15px; margin-bottom:30px;}
+.scd .scd_r{ width:100%;}
+.news dl dd, .business dl dd{ width:310px;}
+.comment dl dd{ width:290px;}
+.open li{ margin-right:25px;}
+.comment dl dd ul li em{ font-size:12px;}
+.comment dl dd ul li p{ width:75%;}
+.analy dl dd{ width:305px;}
+}
+
+@media screen and (max-width:500px) {
+.head,.nav_m,.i_ma,.i_mb,.i_mc .i_mcm,.i_md,.i_me,.i_mf,.foot,.i_mcm .flexslider,.scd{width:320px;}
+.i_mg{ width:319px;}
+.head .logo_a img, .head .logo_a{ width:320px; height:53px;}
+.head .logo_b img, .head .logo_b{ width:320px; height:49px;}
+.head dl{ float:left;}
+.bg_a,.i_ma,.marqueeleft,.marqueeleft li{ height:40px; line-height:40px;}
+.i_mb .i_mbm .i_mbmr{ margin-top:75px;}
+.i_mb .i_mbm{ line-height:150%;}
+.i_name h6, .i_name p{ max-width:320px;}
+.i_name h6, .i_name_a h6 em, .i_name h6 em{ font-size:24px;}
+.i_mcm .sp,.i_mcm .slider{ position:static; float:none;}
+.i_mcm .sp .sp_m, .i_mcm .flexslider .slides li .i_news, .i_mcm .sp{ width:318px; height:422px;}
+.i_mcm .sp .sp_m{ top:0px;}
+.bg_c,.bg_c .bg_ca,.bg_c .bg_cb{ background:none; margin-top:0px;}
+.i_mcm .sp embed{ width:298px; height:258px;}
+.i_news .tu img{ width:298px; height:190px;}
+.i_news .tu, .i_news .title, .i_mcm .sp .des p, .i_mcm .i_news .des p, .i_mcm .sp .des, .i_mcm .i_news .des{ width:298px;}
+.i_mcm .slider{ height:422px;}
+.i_mcm .flexslider{ top:440px; height:425px;}
+.i_mcm .flexslider .slides > li{ height:424px;}
+.i_mdm .business dl dt{ width:312px; height:183px; padding:2px; border:2px solid #ddd;}
+.i_mdm .business dl dt img{ width:312px; height:183px;}
+.i_mdm .business dl dd{ width:100%; margin-top:10px;}
+.i_me dl dd{ width:168px; margin-right:3px;}
+.i_mf{ display:none;}
+.i_mg a{ width:158px; height:46px;}
+.i_mg a img{ width:150px; height:40px;}
+.foot p{ width:230px;}
+.foot .f_code{ top:25px;}
+.i_name p{ font-size:14px;}
+.i_mcm .flex-control-nav{ display:none;}
+.news dl dt, .business dl dt{ padding:2px;}
+.news dl dd, .business dl dd{ width:163px;}
+.news dl dd .des{ margin-top:0px;}
+.comment dl dt{ width:302px; padding:8px; height:168px; margin-bottom:15px;}
+.comment dl dd{ width:100%;}
+.open li{ margin-right:0px;}
+.open li{ width:320px;}
+.open li .tu, .open li .tu img{ width:312px; height:220px;}
+.analy dl dd{ width:100%; margin-top:10px;}
+.analy dl dt{ float:none; margin:0px auto;}
+.analy dl dd .name{ text-align:center;}
+.down table td{ padding:3px;}
+}
