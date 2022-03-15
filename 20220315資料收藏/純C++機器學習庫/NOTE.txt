@@ -1,0 +1,5 @@
+16歲高中生的「卷」，用13000+行代碼，從頭寫了一個純C++機器學習庫
+
+資料來源:
+https://mp.weixin.qq.com/s/mRk9Sdq01lU18kwK8Vh5Ow
+https://github.com/novak-99/MLPP

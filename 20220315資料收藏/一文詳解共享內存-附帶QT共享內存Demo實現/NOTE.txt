@@ -1,0 +1,3 @@
+一文詳解共用記憶體/共享記憶體 [QsharedMemory] - 附帶QT共享記憶體Demo實現
+
+資料來源: https://mp.weixin.qq.com/s/9_0hWRbmufzaN1qf0mMtWg

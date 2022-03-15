@@ -1,0 +1,4 @@
+QT http斷點續傳下載器
+
+資料來源: https://mp.weixin.qq.com/s/mchcr7Bte9ybDHZdl05R1A
+https://github.com/aeagean/QtNetworkService
