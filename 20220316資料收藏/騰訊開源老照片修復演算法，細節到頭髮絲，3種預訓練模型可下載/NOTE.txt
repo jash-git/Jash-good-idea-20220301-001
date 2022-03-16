@@ -1,0 +1,29 @@
+騰訊開源老照片修復演算法，細節到頭髮絲，3種預訓練模型可下載 ~ 載入現成模型
+
+資料來源: https://mp.weixin.qq.com/s/YElIj4KQTwyapV_esfcGhA
+
+GitHub地址：https://github.com/TencentARC/GFPGAN
+
+论文地址：https://arxiv.org/abs/2101.04061
+
+试玩地址：https://huggingface.co/spaces/akhaliq/GFPGAN
+
+
+wget https://github.com/TencentARC/GFPGAN/releases/download/v1.3.0/GFPGANv1.3.pth -P Experiments/pretrained_models
+
+python inference_gfpgan.py -i inputs/whole_imgs -o results -v 1.3 -s 2
+Usage: python inference_gfpgan.py -i inputs/whole_imgs -o results -v 1.3 -s 2 [options]...
+
+  -h                   show this help
+  -i input             Input image or folder. Default: inputs/whole_imgs
+  -o output            Output folder. Default: results
+  -v version           GFPGAN model version. Option: 1 | 1.2 | 1.3. Default: 1.3
+  -s upscale           The final upsampling scale of the image. Default: 2
+  -bg_upsampler        background upsampler. Default: realesrgan
+  -bg_tile             Tile size for background sampler, 0 for no tile during testing. Default: 400
+  -suffix              Suffix of the restored faces
+  -only_center_face    Only restore the center face
+  -aligned             Input are aligned faces
+  -ext                 Image extension. Options: auto | jpg | png, auto means using the same extension as inputs. Default: auto
+  
+python -m torch.distributed.launch —nproc_per_node=4 —master_port=22021 gfpgan/train.py -opt options/train_gfpgan_v1.yml —launcher pytorch  

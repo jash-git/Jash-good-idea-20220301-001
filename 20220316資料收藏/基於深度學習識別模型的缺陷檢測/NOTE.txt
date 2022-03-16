@@ -1,0 +1,4 @@
+基於深度學習識別模型的缺陷檢測 (深度學習/CNN/ANN 影像處理 模型訓練&訓練素材資料/數據 降維/建立/驗證步驟 SOP 介紹)
+
+資料來源: https://mp.weixin.qq.com/s/AwRL9lcm9HC2quXrC2snKQ
+
