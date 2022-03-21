@@ -1,0 +1,20 @@
+互聯網公司常用MySQL 分庫分表方案
+
+資料來源:https://mp.weixin.qq.com/s/5V6QqsQCO4CpziymIyYQcw
+
+一、數據庫瓶頸
+    1、IO瓶頸
+    2、CPU瓶頸
+二、分庫分表
+    1、水平分庫
+    2、水平分表
+    3、垂直分庫
+    4、垂直分表
+三、分庫分表工具
+四、分庫分表步驟
+五、分庫分表問題
+    1、非partition key的查詢問題
+    2、非partition key跨庫跨表分頁查詢問題
+    3、擴容問題
+六、分库分表總结
+七、分库分表示例: https://github.com/littlecharacter4s/study-sharding

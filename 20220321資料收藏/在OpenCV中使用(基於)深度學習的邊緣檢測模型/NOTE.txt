@@ -1,0 +1,5 @@
+在OpenCV中使用(基於)深度學習的邊緣檢測模型
+
+資料來源: https://mp.weixin.qq.com/s/k8AmdoxWTz1QhqBJxW8Kjg
+https://github.com/sankit1/cv-tricks.com/tree/master/OpenCV/Edge_detection
+https://cv-tricks.com/opencv-dnn/edge-detection-hed/

@@ -1,0 +1,28 @@
+AI殺瘋了 [Github AI開源專案]
+
+資料來源: https://mp.weixin.qq.com/s/rTFrZuLK5gXegDVYKqeetg
+
+本文推薦 11 有趣好玩的 AI 開源專案，這些專案來自計算機視覺、自然語言處理、強化學習等領域，這些專案是：
+
+1. 二次元老婆生成器 ~ https://github.com/apchenstu/sofgan
+
+2. 人臉生成器 ~ https://github.com/a312863063/generators-with-stylegan2
+
+3. 視頻/影片換臉神器 ~ https://github.com/alievk/avatarify-python / https://github.com/alievk/avatarify-desktop / https://github.com/iperov/DeepFaceLab (社會新聞~小玉換臉A片 ~ https://www.youtube.com/watch?v=3zwD9JChiN8)
+
+4. 一鍵生成動漫風格 ~ https://github.com/TachibanaYoshino/AnimeGAN
+
+5. 動漫頭像(卡通大頭照)生成器 ~ https://github.com/minivision-ai/photo2cartoon
+
+6. 自動 P 圖人工智慧神器
+
+7. 王者農藥 AI ~ https://github.com/FengQuanLi/ResnetGPT
+
+8. 中文反向詞典 ~ https://github.com/thunlp/WantWords
+
+9. 一鍵 AI 上色/配色 ~ https://github.com/lllyasviel/style2paints
+
+10. 鬥地主 AI ~ www.douzero.org / https://github.com/kwai/DouZero / https://arxiv.org/pdf/2106.06135.pdf
+
+11. 原神遊戲自動釣魚 AI ~ https://github.com/7eu7d7/genshin_auto_fish
+
