@@ -1,0 +1,25 @@
+Python 建立/產生/組合/拆解/拆開 GIF動畫檔案 (反轉/倒播 GIF)
+
+資料來源:https://mp.weixin.qq.com/s/uGAf3_tFd7LEhR64dvrOFw
+
+
+from PIL import Image, ImageSequence
+# 加载本地动图
+image = Image.open("cg.gif")
+# GIF 动图拆分器
+list = ImageSequence.Iterator(image)
+
+imgs = []
+# 拆分后的图片进行编号，从1开始
+k = 1
+# 遍历图片流的每一帧
+for frame in list:
+    # 拆分后的图片，保存到chenge文件夹下，图片命名为img_1.png、img_2.png、...
+    frame.save("./chenge/img_%d.png" % k)
+    imgs.append(frame.copy())
+    k += 1
+
+# 拆分图片流进行反序
+imgs.reverse()
+# 将反序后所有帧图保存下来，命名为reverse_cg.gif
+imgs[0].save("reverse_cg.gif", save_all=True, append_images=imgs[1:])

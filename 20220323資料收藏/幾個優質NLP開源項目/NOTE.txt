@@ -1,0 +1,10 @@
+幾個優質NLP開源項目
+
+資料來源: https://mp.weixin.qq.com/s/IiZgKDXkF67NlYQ_R54rIw
+
+GITHUB:
+https://github.com/thunlp/OpenNRE
+https://github.com/LeeSureman/Flat-Lattice-Transformer
+https://github.com/dennybritz/cnn-text-classification-tf
+https://github.com/google/seq2seq
+https://github.com/koth/kcws
