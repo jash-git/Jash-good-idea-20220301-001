@@ -1,0 +1,3 @@
+CMake3.22.1+OpenCV4.5.5+VS2019配置
+
+資料來源: https://mp.weixin.qq.com/s/SmgcU5R1LtgziQHaVuXy_Q

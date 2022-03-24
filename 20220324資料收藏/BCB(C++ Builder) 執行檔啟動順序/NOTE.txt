@@ -1,0 +1,14 @@
+BCB(C++ Builder) 執行檔啟動順序(程式進入點/如何使用debug mode)
+
+資料來源: http://macodolau.blogspot.com/2008/12/bcb.html
+
+BCB是一個事件驅動的視窗程式，習慣撰寫 VC的朋友們剛入門時，常會找不到"人"在哪(Main啦)??程式到底從何開始執行?? 今兒個就用Debug來簡單說一下程式執行的順序。
+
+建立一個新的 BCB專案後，儲存所有檔案(預設命名)到你指定的資料夾後，開啟 Project1.cpp並在"WINAPI WinMain"設一個 debug point，用 F7去 Trace程式，就能發現程式就是從這裡開始的!!首先 Application->CreateForm() 會去執行 Form的建構子，接著再做 FormCreate，最後以 Application->Run()去執行 FormShow。
+
+由以上可以知道，我們習慣把一些 initiation放在 FormCreate中，即每當程式啟動時都能去做一些參數初值設定，外部硬體初始化等動作。執行順序最後整理如下:
+    1. TForm1::TForm1
+    2. TForm1::FormCreate
+    3. TForm1::FormShow
+	
+	

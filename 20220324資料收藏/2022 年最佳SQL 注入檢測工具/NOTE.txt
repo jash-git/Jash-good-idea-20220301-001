@@ -1,0 +1,20 @@
+2022 年最佳 SQL 注入(injection) 駭客/黑客攻擊 檢測工具
+
+資料來源: https://mp.weixin.qq.com/s/Pu1jho2oONRMO8JS8HaNCw
+
+Explo
+Whitewidow
+Tyrant SQL
+NoSQLMap
+Leviathan
+Damn Small SQLi Scanner
+Blind SQL Injection via Bit Shifting
+Acunetix Web 漏洞掃描程序
+Blisqy
+BBQSQL
+Burp
+Havij
+jSQL Injection
+SQLMap
+Netsparker
+頂級SQLi 檢測工具
