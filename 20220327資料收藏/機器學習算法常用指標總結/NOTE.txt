@@ -1,0 +1,13 @@
+機器學習算法常用指標總結
+
+資料來源: https://mp.weixin.qq.com/s/D0ij4uGsahXUz6qgYv5RiQ
+
+1. TPR、FPR&TNR
+
+2. 精確率Precision、召回率Recall和F1值
+
+3. 綜合評價指標F-measure
+
+4. ROC曲線和AUC
+
+5. 參考內容

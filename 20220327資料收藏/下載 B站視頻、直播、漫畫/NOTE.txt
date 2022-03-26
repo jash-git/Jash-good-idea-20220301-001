@@ -1,0 +1,5 @@
+下載 B站(大陸 youtube)視頻、直播、漫畫
+
+GitHub地址：https://github.com/vooidzero/B23Downloader
+
+使用Qt C++ 開發的 B站內容下載器，支援視頻、直播、漫畫。
