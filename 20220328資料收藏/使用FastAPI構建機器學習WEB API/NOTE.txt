@@ -1,0 +1,4 @@
+使用FastAPI構建機器學習WEB API
+
+資料來源: https://mp.weixin.qq.com/s?__biz=MzA4MjYwMTc5Nw==&mid=2648960128&idx=2&sn=22ade650c5679e223b05cd30227175d9&chksm=87947eaab0e3f7bca6328c43a534bb6e01bf3f6f0b8ba58646dc479f0dbb9b94500c33a04f3d&token=143951189&lang=zh_CN&scene=21#wechat_redirect
+

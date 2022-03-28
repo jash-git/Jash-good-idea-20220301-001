@@ -1,0 +1,7 @@
+gRPC（Remote Procedure Call）
+
+資料來源: https://mp.weixin.qq.com/s?__biz=MzA4MjYwMTc5Nw==&mid=2648950326&idx=2&sn=5774aa73de4d0558a2d00de39dee7bd6&chksm=8794541cb0e3dd0aad7963dc54cc99b3a677e5bbb317e106d4b0a611fd08df19daf1dec471c0&token=143951189&lang=zh_CN&scene=21#wechat_redirect
+
+gRPC 由Google 開發，是一款語言中立、平台中立、開源的RPC 框架。
+
+RPC（Remote Procedure Call）即：遠程過程調用，它是一種通過網絡從遠程計算機程序上請求服務，而不需要了解底層網絡技術的協議。使用的時候，客戶端調用server端提供的接口就像是調用本地的函數一樣。

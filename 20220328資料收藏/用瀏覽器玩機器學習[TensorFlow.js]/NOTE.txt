@@ -1,0 +1,8 @@
+用(javascript/js)瀏覽器玩機器學習(ML) [TensorFlow.js]
+
+資料來源: https://mp.weixin.qq.com/s/W31pvRXWypwHe-lhmcZiHA
+https://www.tensorflow.org/js/models/
+https://www.tensorflow.org/js/tutorials#convert_pretained_models_to_tensorflowjs
+https://www.tensorflow.org/js/tutorials/transfer/what_is_transfer_learning
+https://www.tensorflow.org/js/tutorials
+https://storage.googleapis.com/tfjs-examples/iris/dist/index.html

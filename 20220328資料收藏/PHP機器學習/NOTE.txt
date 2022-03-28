@@ -1,0 +1,5 @@
+PHP機器學習
+
+資料來源:
+https://github.com/qieangel2013/phpml
+https://gitee.com/qieangel2013/phpml
