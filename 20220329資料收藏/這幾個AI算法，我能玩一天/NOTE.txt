@@ -1,0 +1,9 @@
+這幾個AI算法，我能玩一天 [ 真人卡通變臉/文字轉圖/修圖偵測器 ]
+
+資料來源: https://mp.weixin.qq.com/s/2lbBxUT5hmpqhWp3Y7o2EA
+https://github.com/williamyang1991/DualStyleGAN
+https://github.com/kakaobrain/rq-vae-transformer
+https://github.com/xaCheng1996/VFD
+
+線上執行: https://huggingface.co/spaces/hysts/DualStyleGAN
+

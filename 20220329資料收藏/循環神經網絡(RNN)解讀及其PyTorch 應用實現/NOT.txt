@@ -1,0 +1,3 @@
+循環神經網絡(RNN)解讀及其PyTorch 應用實現
+
+資料來源: https://mp.weixin.qq.com/s/eucDeuN3X3XAjRSfGuiuAA

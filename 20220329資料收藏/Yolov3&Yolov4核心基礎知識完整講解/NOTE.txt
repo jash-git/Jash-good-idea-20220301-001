@@ -1,0 +1,25 @@
+Yolov3&Yolov4核心基礎知識完整講解
+
+資料來源: https://mp.weixin.qq.com/s/sjSPVC-fvcfMULFLqgMTLw
+
+1. 論文匯總
+2. Yolov3核心基礎內容
+    2.1 網絡結構可視化
+    2.2 網絡結構圖
+    2.3 核心基礎內容
+3. Yolov3相關代碼
+    3.1 python代碼
+    3.2 C++代碼內容
+    3.3 python版本的Tensorrt代碼
+    3.4 C++版本的Tensorrt代碼
+4. Yolov4核心基礎內容
+    4.1 網絡結構可視化
+    4.2 網絡結構圖
+    4.3 核心基礎內容
+    4.3.1 輸入端創新
+    4.3.2 Backbone創新
+    4.3.3 Neck創新
+    4.4.4 Prediction創新
+5. Yolov4相關代碼
+    5.1 python代碼
+    5.2 C++代碼 
